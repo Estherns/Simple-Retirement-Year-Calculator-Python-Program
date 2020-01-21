@@ -2,6 +2,6 @@
 name = input("Please enter your name: ")
 # input function allows the user to interact 
 age = int(input("Please enter your age: ")) #we specify type int since we need the user to input an integer value
-year = str ((2019 - age) + 65) 
+year = str ((2019 - age) + 65)  # Note 65 is a constant since its the average retirement age
 print("Hi " + name + " you'll retire in the year " + year)
 
